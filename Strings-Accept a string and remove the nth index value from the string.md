@@ -16,11 +16,11 @@ To write a Python program that accepts a string and removes the character at a s
 
 ## 💻 Program
 ```
-items=[1,6,4,7,8,9,5,3]
-sum_numbers=0
-for x in items:
-       sum_numbers+=x
-print(sum_numbers)
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
 ```
 ## Output
 ![WhatsApp Image 2025-10-19 at 19 44 25_db7b8fe9](https://github.com/user-attachments/assets/e7c8679a-250f-416f-8593-8191812994d3)
